@@ -53,19 +53,19 @@ function Navbar() {
            
          {/* Mobile Menu */}
       {nav && (
-        <div className="md:hidden bg-black mt-[4rem] w-2/3 m-auto absolute top-0 left-0 py-6 px-4 right-0 flex justify-center items-center">
+        <div className="md:hidden border border-black  bg-white mt-[4rem] w-2/3 m-auto absolute top-0 left-0 py-6 px-4 right-0 flex justify-center items-center">
           <ul className="flex flex-col gap-3 list-none  ">
-            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center'  >
-              <li className="text-white font-semibold">About Me</li>
+            <a href="#" className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center'  >
+              <li className="text-black hover:text-white font-semibold">About Me</li>
             </a>
-            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center '  >
-              <li className="text-white font-semibold">Skills</li>
+            <a href="#" className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center '  >
+              <li className="text-black hover:text-white font-semibold">Skills</li>
             </a>
-            <a href="#" className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center '  >
-              <li className="text-white font-semibold">Projects</li>
+            <a href="#" className='border border-gray-400  hover:bg-[#20B486]  p-2  w-[13.25rem] flex justify-center items-center '  >
+              <li className="text-black  hover:text-white font-semibold">Projects</li>
             </a>
-            <a href="#"  className='border border-gray-400 p-2  w-[13.25rem] flex justify-center items-center ' >
-              <li className="text-white font-semibold">Contact Me</li>
+            <a href="#"  className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center ' >
+              <li className="text-black hover:text-white font-semibold">Contact Me</li>
             </a>
             <a href="#" className='flex justify-center items-center'  >
             <button className='bg-[#20B486] text-white  px-4 py-2 rounded-md  transition duration-200 ease-in-out active:scale-90'> Sign up for Free </button>
