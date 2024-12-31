@@ -4,7 +4,7 @@ import header_image from '../assets/header_image.png';
 function Header() {
     return (
         <>
-            <div className="relative">
+            <div className="">
                 {/* Header Image Section */}
                 <div className="lg:grid md:justify-center md:text-center lg:justify-start lg:items-start grid items-center justify-center">
                     <div className="lg:flex lg:right-8 lg:absolute ml-[-2.25rem] mt-[1.5rem] lg:w-[889px] lg:h-[500px] md:grid md:justify-center md:items-center">
