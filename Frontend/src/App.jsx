@@ -1,6 +1,7 @@
  import React from 'react'
 import Navbar from './Components/Navbar'
 import Header from './Components/Header'
+import Course from './Components/Course'
  
  const App = () => {
    return (
@@ -8,6 +9,10 @@ import Header from './Components/Header'
     
       <Navbar/>
       <Header/>
+      <div className='md:mt-[10rem] mt-[3rem]' >
+
+      <Course/>
+      </div>
      
    </>
    )

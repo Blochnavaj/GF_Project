@@ -17,10 +17,10 @@ function Header() {
                                 START TO SUCCESS
                             </p>
                         </div>
-                        <p className="font-medium flex justify-start items-start">
-                            Access To <span className="text-[#20B486] font-bold">5000+</span> Courses
+                        <p className="font-medium flex justify-start items-start gap-2 ">
+                            Access To <span className="text-[#20B486] font-bold   ">5000+</span> Courses
                         </p>
-                        <p className="font-medium flex justify-start items-start gap-1">
+                        <p className="font-medium flex justify-start items-start gap-2">
                             from <span className="text-[#20B486] font-bold">300</span> Instructors
                         </p>
                         <p className="font-medium flex justify-start items-start">& Institutions</p>
