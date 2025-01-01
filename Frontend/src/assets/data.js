@@ -38,7 +38,16 @@ const courseData = [
   {
     id: 5,
     course_name: "C++",
-    image: course_1,
+    image: course_2,
+    course_tittle: "Various versions have evolved",
+    total: "(15)",
+    price: "$500",
+    
+  },
+  {
+    id: 6,
+    course_name: "Javascript",
+    image: course_3,
     course_tittle: "Various versions have evolved",
     total: "(15)",
     price: "$500",

@@ -27,12 +27,12 @@ function Header() {
                     </div>
                 </div>
                 {/* Supporting Text */}
-                <div className="md:mt-3 md:ml-3 ml-3 mt-4">
+                <div className="md:mt-3 md:ml-3 ml-3 mt-4 md:flex md:justify-center md:items-center lg:flex lg:justify-start">
                     <p className="font-semibold text-xl">
                         Various versions have evolved over the years, sometimes by accident,
                     </p>
                 </div>
-                <div className="border mt-4 rounded-md flex items-center px-4 md:mt-3 w-[300px] md:w-[400px] h-[50px] ml-4">
+                <div className="border mt-4 rounded-md md:flex md:justify-center md:items-center md:m-auto lg:flex lg:justify-start lg:m-0 lg:mt-5 lg:ml-3 flex items-center px-4 md:mt-3 w-[300px] md:w-[400px] h-[50px] ml-4">
                     <input
                         type="text"
                         className="flex-grow outline-none text-sm placeholder-gray-500 text-left pl-2"

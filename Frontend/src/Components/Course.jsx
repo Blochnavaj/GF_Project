@@ -17,9 +17,9 @@ function Course() {
           <p className='text-[#20B486] font-semibold text-5xl'>Course</p>
         </div>
      
-         <div className="  grid md:grid md:grid-cols-3  gap-2 mt-0 md:mt-28  transform scale-90  ">
+         <div className="  grid md:grid md:grid-cols-2 lg:gap-3 lg:grid-cols-3  gap-5 mt-0 md:mt-28  transform scale-90  ">
           {courseData.map((item, index) => (
-            <div key={index} className="border p-4 rounded-lg     ">
+            <div key={index} className="border p-4 rounded-lg cursor-pointer     ">
               <div className="relative border border-black px-[2rem] py-[1rem]">
                 {/* Positioned text on top of the image */}
                 <div className="absolute top-2 left-4 bg-white text-black px-2 py-1 rounded-sm">
