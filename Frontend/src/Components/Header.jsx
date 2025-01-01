@@ -39,7 +39,7 @@ function Header() {
                         placeholder="What do you want to learn?"
                     />
                     <i className="fa-solid fa-magnifying-glass text-gray-500 cursor-pointer"></i>
-                </div>
+                 </div>
 
             </div>
 
