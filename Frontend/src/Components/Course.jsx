@@ -1,19 +1,25 @@
 import React from 'react'
+ 
 import courseData from '../assets/data.js'
 
+
 function Course() {
+  
+  
   return (
     <>
-      <div className='md:mt-[2rem] md:flex  grid justify-center items-center'>
-        <div className='md:ml-[6rem] md:m-auto flex flex-col justify-center items-center md:justify-start md:items-start'>
+     
+      <div className='md:mt-[2rem] md:flex  grid justify-center items-center md:justify-start md:items-start mt-[3rem]  '>
+      
+        <div className='md:ml-[4rem] md:m-auto flex flex-col justify-center items-center  md:justify-start md:items-start mt-6'>
           <p className='font-light text-5xl text-black'>Most</p>
           <p className='text-[#20B486] font-semibold text-5xl'>Popular</p>
           <p className='text-[#20B486] font-semibold text-5xl'>Course</p>
         </div>
-
-        <div className="md:flex grid   gap-2 mt-8">
+     
+         <div className="  grid md:grid md:grid-cols-3  gap-2 mt-0 md:mt-28  transform scale-90  ">
           {courseData.map((item, index) => (
-            <div key={index} className="border p-4 rounded-lg ">
+            <div key={index} className="border p-4 rounded-lg     ">
               <div className="relative border border-black px-[2rem] py-[1rem]">
                 {/* Positioned text on top of the image */}
                 <div className="absolute top-2 left-4 bg-white text-black px-2 py-1 rounded-sm">
@@ -51,10 +57,15 @@ function Course() {
               </div>
             </div>
           ))}
+
+        
         </div>
 
+   
 
+ 
       </div>
+
     </>
   )
 }

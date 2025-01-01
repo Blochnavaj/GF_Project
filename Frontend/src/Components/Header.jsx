@@ -6,8 +6,8 @@ function Header() {
         <>
             <div className="">
                 {/* Header Image Section */}
-                <div className="lg:grid md:justify-center md:text-center lg:justify-start lg:items-start grid items-center justify-center">
-                    <div className="lg:flex lg:right-8 lg:absolute ml-[-2.25rem] mt-[1.5rem] lg:w-[889px] lg:h-[500px] md:grid md:justify-center md:items-center">
+                <div className="lg:grid md:justify-center md:text-center lg:justify-start lg:items-start grid items-center justify-center ">
+                    <div className="lg:flex lg:right-8   lg:absolute ml-[-2.25rem] mt-[1.5rem] lg:w-[889px] lg:h-[500px] md:flex  md:justify-center md:items-center">
                         <img className="w-full h-full" src={header_image} alt="" />
                     </div>
                     {/* Header Text Section */}

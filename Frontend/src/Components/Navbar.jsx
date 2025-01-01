@@ -10,7 +10,8 @@ function Navbar() {
 
   return (
     <>
-      <div className='flex md:justify-between  items-center  mt-4 m-3    '>
+    
+      <div className='flex md:justify-between md:flex md:items-center md:w-full  items-center  mt-4 m-3    '>
         <div className='ml-6 '>
           <h1 className='text-3xl  cursor-pointer '> <span className='text-[#20B486] font-medium'>e<span className='text-[#FFC27A]'>Dex</span></span></h1>
         </div>
@@ -75,6 +76,7 @@ function Navbar() {
       )}
 
       </div>
+   
     </>
   )
 }

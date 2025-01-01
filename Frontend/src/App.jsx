@@ -9,7 +9,7 @@ import Course from './Components/Course'
     
       <Navbar/>
       <Header/>
-      <div className='md:mt-[10rem] mt-[3rem] ' >
+      <div className='md:mt-[3rem] mt-[3rem] ' >
 
       <Course/>
       </div>
