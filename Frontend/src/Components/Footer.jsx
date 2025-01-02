@@ -3,14 +3,14 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="md:max-w-screen-xl md:mx-auto md:my-7 p-5 grid justify-center items-center">
+      <div className=" md:m-auto  md:my-7  grid justify-center items-center   ">
         {/* Footer Header */}
         
 
         {/* Footer Content */}
-        <div className="md:flex justify-between items-start gap-10">
+        <div className="md:flex justify-between items-start md:gap-[9.5rem]    ">
           {/* Contact Us */}
-          <div className="mb-6">
+          <div className="mb-6 ">
             <p className="text-2xl font-bold py-2">Contact Us</p>
             <p className="text-sm font-semibold py-1">Call : +123 400 123</p>
             <p className="text-sm font-semibold py-1">

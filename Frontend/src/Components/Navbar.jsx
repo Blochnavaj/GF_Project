@@ -1,11 +1,9 @@
 import React, { useState  } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
-import {Link} from 'react-scroll'
+ import {Link} from 'react-scroll'
 function Navbar() {
 
   const [nav, setNav] = useState(false)
-  const navigate = useNavigate();
-
+ 
   const toggleNav = () =>{
      setNav(!nav)
   }
@@ -46,8 +44,8 @@ function Navbar() {
         </div>
 
         <div className=' '>
-          <div className='hidden md:flex' >
-            <button className='bg-white text-[6D737A] px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90' onClick={() =>navigate('/login')}> Login </button>
+          <div className='hidden md:flex md:mr-4' >
+            <button className='bg-white text-[6D737A] px-4 py-2 rounded-md font-semibold w-full transition duration-200 ease-in-out active:scale-90'  > Login </button>
             <button className='bg-[#20B486] text-white px-4 py-2 rounded-md min-w-[150px] min-h-[24px] transition duration-200 ease-in-out active:scale-90'> Sign up for Free </button>
           </div>
           <div onClick={toggleNav} className=' right-8  top-6 absolute md:hidden '>
