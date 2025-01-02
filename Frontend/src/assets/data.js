@@ -9,7 +9,7 @@ const courseData = [
     image: course_1,
     course_tittle: "Various versions have evolved",
      total: "(15)",
-    price: "$500",
+    price: "100₹",
    },
   {
     id: 2,
@@ -17,7 +17,7 @@ const courseData = [
     image: course_2,
     course_tittle: "Various versions have evolved",
      total: "(15)",
-    price: "$500",
+    price: "100₹",
    },
   {
     id: 3,
@@ -25,7 +25,7 @@ const courseData = [
     image: course_3,
     course_tittle: "Various versions have evolved",
      total: "(15)",
-    price: "$500",
+    price: "100₹",
    },
   {
     id: 4,
@@ -33,7 +33,7 @@ const courseData = [
     image: course_1,
     course_tittle: "Various versions have evolved",
      total: "(15)",
-    price: "$500", 
+    price: "100₹", 
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const courseData = [
     image: course_2,
     course_tittle: "Various versions have evolved",
     total: "(15)",
-    price: "$500",
+    price: "100₹",
     
   },
   {
@@ -50,7 +50,7 @@ const courseData = [
     image: course_3,
     course_tittle: "Various versions have evolved",
     total: "(15)",
-    price: "$500",
+    price: "100₹",
     
   },
 ];
