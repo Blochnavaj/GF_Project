@@ -9,7 +9,7 @@ function Course() {
   return (
     <>
      
-      <div className='md:mt-[2rem] md:flex  grid justify-center items-center md:justify-start md:items-start mt-[3rem]  '>
+      <div className='md:mt-[2rem] md:flex  grid justify-center items-center md:justify-start md:items-start mt-[3rem]  ' id='skills'>
       
         <div className='md:ml-[4rem] md:m-auto flex flex-col justify-center items-center  md:justify-start md:items-start mt-6'>
           <p className='font-light text-5xl text-black'>Most</p>
