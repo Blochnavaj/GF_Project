@@ -43,9 +43,9 @@ function Footer() {
           </div>
 
           {/* Subscribe */}
-          <div className=''>
+          <div className='grid'>
             <h1 className="font-bold text-2xl pb-4">Subscribe</h1>
-            <div className="flex flex-row sm:flex-row items-center gap-4 ">
+            <div className="grid  items-center gap-4 ">
               <input
                 type="email"
                 className="border rounded-lg px-4 py-2 w-full sm:w-auto"

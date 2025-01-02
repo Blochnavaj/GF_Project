@@ -4,12 +4,16 @@ import courseData from '../assets/data.js'
 
 
 function Course() {
+  const handlePayNow = () => {
+    const upiUrl = `upi://pay?pa=7383034778@axl&pn=BlochNavaj&am=100&cu=INR&tn=Payment%20for%20services`;
+    window.location.href = upiUrl;
+  };
   
   
   return (
     <>
      
-      <div className='md:mt-[2rem] md:flex  grid justify-center items-center md:justify-start md:items-start mt-[3rem]  ' id='skills'>
+      <div className='md:mt-[2rem] md:flex  grid justify-center  items-center md:justify-start md:items-start mt-[3rem]  ' id='skills'>
       
         <div className='md:ml-[4rem] md:m-auto flex flex-col justify-center items-center  md:justify-start md:items-start mt-6'>
           <p className='font-light text-5xl text-black'>Most</p>
@@ -50,9 +54,9 @@ function Course() {
                 <hr className="w-3/3" />
 
                 {/* Price and Arrow */}
-                <div className="mt-2 flex justify-between items-center text-black md:flex md:justify-between md:items-center ">
+                <div className="mt-3 flex justify-between items-center text-black md:flex md:justify-between md:items-center ">
                   <h1 className="font-bold text-2xl">{item.price}</h1>
-                  <i class="fa-solid fa-arrow-right md:w-8"></i>
+                 <p className='border px-2 py-1 text-black hover:bg-[#20B486] rounded-md hover:text-white ' onClick={handlePayNow}>Buy Now  <i class="fa-solid fa-arrow-right md:w-8"></i></p>
                 </div>
               </div>
             </div>
