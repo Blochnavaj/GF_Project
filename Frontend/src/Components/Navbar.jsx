@@ -23,19 +23,20 @@ function Navbar() {
       smooth={true} 
       offset={50} 
       duration={500}  className=''>
-              <li className='text-black font-semibold hover:text-[#20B486]   '>About Me</li>
+              <li className='text-black font-semibold hover:text-[#20B486]   '>Home</li>
             </Link>
-            <Link  to='skills'  activeClass="active" 
+            <Link  to='course'  activeClass="active" 
       spy={true} 
       smooth={true} 
       offset={50} 
       duration={500} >
-              <li className='text-black font-semibold   hover:text-[#20B486]  '> Skills</li>
+              <li className='text-black font-semibold   hover:text-[#20B486]  '>Course</li>
             </Link>
-            <Link>
-              <li className='text-black font-semibold  hover:text-[#20B486]   '> Project</li>
-            </Link>
-            <Link>
+           
+            <Link to='contact-me' spy={true}  activeClass="active" 
+      smooth={true} 
+      offset={50} 
+      duration={500}>
               <li className='text-black font-semibold hover:text-[#20B486]   '> Contact Me </li>
             </Link>
           </ul>
@@ -64,16 +65,16 @@ function Navbar() {
       {nav && (
         <div className="md:hidden border border-black  bg-white mt-[4rem] w-2/3 m-auto absolute top-0 left-0 py-6 px-4 right-0 flex justify-center items-center">
           <ul className="flex flex-col gap-3 list-none  ">
-            <Link to='' className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center'  >
-              <li className="text-black hover:text-white font-semibold">About Me</li>
+            <Link  to='course' className='border border-gray-400  hover:bg-[#20B486]  p-2  w-[13.25rem] flex justify-center items-center ' spy={true}  activeClass="active" 
+      smooth={true} 
+      offset={50} 
+      duration={500}> 
+              <li className="text-black  hover:text-white font-semibold">Course</li>
             </Link>
-            <Link to='skills' className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center '  >
-              <li className="text-black hover:text-white font-semibold">Skills</li>
-            </Link>
-            <Link to='' className='border border-gray-400  hover:bg-[#20B486]  p-2  w-[13.25rem] flex justify-center items-center '  >
-              <li className="text-black  hover:text-white font-semibold">Projects</li>
-            </Link>
-            <Link to=''  className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center ' >
+            <Link to='contact-me'  className='border border-gray-400 hover:bg-[#20B486] p-2  w-[13.25rem] flex justify-center items-center ' spy={true}  activeClass="active" 
+      smooth={true} 
+      offset={50} 
+      duration={500}> 
               <li className="text-black hover:text-white font-semibold">Contact Me</li>
             </Link>
             <Link to='' className='flex justify-center items-center'  >

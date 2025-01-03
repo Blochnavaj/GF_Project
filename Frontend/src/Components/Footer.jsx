@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className=" md:m-auto  md:my-7  grid justify-center items-center   ">
+      <div id="contact-me" className=" md:m-auto  md:my-7  grid justify-center items-center   ">
         {/* Footer Header */}
         
 
